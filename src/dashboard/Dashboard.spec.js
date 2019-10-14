@@ -3,7 +3,7 @@ import React from 'react';
 import * as rtl from '@testing-library/React';
 import '@testing-library/jest-dom/extend-expect';
 import Dashboard from './Dashboard';
-import { isMainThread } from 'worker_threads';
+
 
 afterEach(rtl.cleanup);
 
